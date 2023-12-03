@@ -4,6 +4,7 @@
 }
 
 body{
+    background-color: cadetblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,8 +12,11 @@ body{
 }
 
 .container {
+    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     gap: 15px;
     align-items: center;
+    padding: 10px;
+    border-radius: 15px;
 }
